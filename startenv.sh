@@ -1,3 +1,5 @@
+sudo apt-get install python-dev python-pip
+
 virtualenv --no-site-package jupyter-env
 source jupyter-env/bin/activate
 pip install  --ignore-installed --upgrade \
